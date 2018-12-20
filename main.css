@@ -164,6 +164,12 @@ h3{
 	font-weight: 300;
 	line-height: 1em;
 }
+h4{
+	font-weight: 300;
+	font-style: italic;
+	font-size: 2.688em;
+	line-height: 1.250em;
+}
 h5{
 	font-size: 0.938em;
 	font-weight: 700;
@@ -221,7 +227,7 @@ header{
 	margin-bottom: 6.8vh;
 }
 
-.content{
+.main-slide{
 	background-color: #e8b968;
 }
 
@@ -250,12 +256,47 @@ header{
 	margin-top: 8vh;
 }
 
-.feature_block{
-	width: 32.5vw;
+.testimonials{
+	background-image: url(img/testimonials.png);
+	background-repeat: no-repeat;
+	background-position: center bottom;
+	background-size: cover;
+	/*height: 85vh;*/
+}
+
+.person_pic{
+	margin-top: 15.5vh;
+	text-align: center;
+}
+
+.persong_img{
+	border-radius: 100%;
+}
+
+.feedback-text{
+	text-align: center;
+	margin-top: 5vh;
+	margin-bottom: 28vh;
+}
+
+.feature_block:nth-child(even){
 	margin-top: 9.65vh;
 }
+
+.feature_blocks_left, .feature_blocks_right{
+	margin-top: 9.65vh;
+	width: 32.5vw;
+}
+
+.line {
+	margin-top: 9.65vh;
+	height: 50vh;
+	width: 1px;
+	background-color: rgb(208, 217, 226, 0.4);
+}
+
 .block__text{
-	margin-top: 3.8vh; 
+	margin-top: 3.8vh;
 	color: #9197a8;
 }
 .features__blocks{
@@ -314,6 +355,16 @@ header{
 }
 
 footer{
-	height: 53vh;
 	background-color: #7accc8;
+}
+
+.footer_logo{
+	margin-top: 5vh;
+	margin-bottom: 2vh;
+}
+
+.footer_devs{
+	letter-spacing: 500;
+	text-transform: uppercase;
+	margin-bottom: 3vh;
 }
